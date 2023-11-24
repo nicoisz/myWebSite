@@ -1,16 +1,17 @@
-import logo from './logo.svg';
-import './App.scss';
-import { Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom'
+import Layout from './components/layout/layout.component'
+import './App.scss'
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Layout />}>
+        <Route path="/" element={<Layout />}>
+          
         </Route>
       </Routes>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
