@@ -3,10 +3,9 @@ import './layout.styles.scss'
 
 const LayoutPage = () => {
     return (
-        <>
+        <div>
             <SidebarComponent />
-            <h1 className='title'>Hola</h1>
-        </>
+        </div>
     )
 };
 
