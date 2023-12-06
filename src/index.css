@@ -10,7 +10,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #022c43;
   overflow: hidden;
-  overflow-y: hidden !important;
   display: block;
 }
 
