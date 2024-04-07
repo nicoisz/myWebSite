@@ -1,0 +1,5 @@
+@media screen and (max-width:270px) {
+    .squeezed{
+        display: block;
+    }
+}
