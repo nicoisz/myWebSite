@@ -117,3 +117,9 @@
 }
 
 
+@media screen and (max-width:270px) {
+    .header{
+        display: none;
+    }
+      
+}

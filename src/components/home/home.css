@@ -1,5 +1,27 @@
+.home__content{
+    grid-template-columns: 116px repeat(2, 1fr);
+    padding: 5.5rem;
+    column-gap: 2rem;
+    align-items: center;
+}
+.squeezed{
+    display: none;
+}
+.home__img{
+    background-image: url(../../assets/profile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
 @media screen and (max-width:270px) {
+    #home{
+        display: none;
+    }
     .squeezed{
         display: block;
     }
+      
 }
