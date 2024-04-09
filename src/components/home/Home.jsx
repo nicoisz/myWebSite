@@ -7,10 +7,6 @@ import NoSpace from './noSpace/NoSpace'
 const Home = () => {
   return (
     <div>
-      <div className='squeezed'>
-        <NoSpace/>
-      </div>
-      <div className='main'></div>
       <section className='section home' id='home'>
         <div className='home__container container grid'>
           <div className='home__content grid'>
@@ -20,6 +16,10 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <div className='squeezed'>
+        <NoSpace/>
+      </div>
     </div>
   )
 }
