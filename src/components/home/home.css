@@ -210,6 +210,17 @@
     .home__description{
         text-align: center;
     }
+
+    .button{
+        padding: 1rem 1.75rem;
+        display: flex;
+    }
+
+    .button__icon{
+        margin-left: 6px;
+        width: 22px;
+        height: 22px;
+    }
 }
 @media screen and (max-width:576px){
     
