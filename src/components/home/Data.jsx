@@ -17,7 +17,7 @@ const Data = () => {
         <p className='home__description'>I'm a creative developer based in Canada, and i'm very passionate to my work.</p>
       </div>
     
-        <a href='#contact' className='button button--flex'>say hello <span>
+        <a href='#contact' className='button button--flex'>say hello &nbsp;<span>
           <Send/></span>
         </a>
     </div>

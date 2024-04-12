@@ -18,7 +18,7 @@ const About = () => {
                     <Info />
                     <p className="about__description">Front End & Mobile Developer, I create web pages with UI / UX user interface
                         , I have several years of experience and many clients are happy with the projects carried out.</p>
-                    <a download="" href={CV} className="button button__flex">Download <File/></a>
+                    <a download="" href={CV} className="button button__flex">Download &nbsp;<File/></a>
                 </div>
         </div>
     </section>
