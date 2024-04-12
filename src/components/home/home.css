@@ -60,6 +60,9 @@
     margin-left: 0.4rem;
 }
 
+.mt-0-25{
+    margin-top: 0.25rem;
+}
 .home__img{
     background-image: url(../../assets/profile.jpg);
     background-repeat: no-repeat;
