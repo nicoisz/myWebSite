@@ -73,4 +73,25 @@
     }
 }
 @media screen and (max-width:768px){
+    .about__data{
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+   
 }
+
+@media screen and (max-width:576px){
+    .about__info{
+        grid-template-columns: repeat(3,1fr);
+
+    }
+
+    .about__description{
+        padding: 0;
+    }
+   
+}
+
