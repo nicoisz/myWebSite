@@ -10,7 +10,16 @@ function Mobile() {
                   <i className="bx bx-badge-check"></i>
 
                   <div>
-                      <h3 className="skills__name">Node JS
+                      <h3 className="skills__name">Ionic Framework
+                      </h3>
+                      <span className="skills__level">Intermediate</span>
+                  </div>
+              </div>
+              <div className="skills__data">
+                  <i className="bx bx-badge-check"></i>
+
+                  <div>
+                      <h3 className="skills__name">Flutter
                       </h3>
                       <span className="skills__level">Basic</span>
                   </div>
@@ -19,47 +28,9 @@ function Mobile() {
                   <i className="bx bx-badge-check"></i>
 
                   <div>
-                      <h3 className="skills__name">MySQL
+                      <h3 className="skills__name">Native Script
                       </h3>
-                      <span className="skills__level">Intermediate</span>
-                  </div>
-              </div>
-              <div className="skills__data">
-                  <i className="bx bx-badge-check"></i>
-
-                  <div>
-                      <h3 className="skills__name">Firebase
-                      </h3>
-                      <span className="skills__level">Intermediate</span>
-                  </div>
-              </div>
-          </div>
-          <div className="skills__group">
-              <div className="skills__data">
-                  <i className="bx bx-badge-check"></i>
-
-                  <div>
-                      <h3 className="skills__name">
-                      </h3>
-                      <span className="skills__level"></span>
-                  </div>
-              </div>
-              <div className="skills__data">
-                  <i className="bx bx-badge-check"></i>
-
-                  <div>
-                      <h3 className="skills__name">
-                      </h3>
-                      <span className="skills__level"></span>
-                  </div>
-              </div>
-              <div className="skills__data">
-                  <i className="bx bx-badge-check"></i>
-
-                  <div>
-                      <h3 className="skills__name">
-                      </h3>
-                      <span className="skills__level"></span>
+                      <span className="skills__level">Basic</span>
                   </div>
               </div>
           </div>
