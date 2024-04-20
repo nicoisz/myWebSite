@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Backend = () => {
+function Mobile() {
   return (
     <div className="skills__content">
-    <h3 className="skills__title">Backend Developer</h3>
+    <h3 className="skills__title">Mobile Developer</h3>
       <div className="skills__box">
           <div className="skills__group">
               <div className="skills__data">
@@ -68,4 +68,4 @@ const Backend = () => {
   )
 }
 
-export default Backend
+export default Mobile
