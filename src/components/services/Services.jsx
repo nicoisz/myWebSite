@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './services.css'
 
 function Services() {
+    const [toggleState, setToggleState] = useState(0);
+    const toggleTab = (index) => {
+        setToggleState(index);
+    }
+
   return (
       <section className="services section" id="services">
           <h2 className="section__title">Services</h2>
@@ -12,11 +17,11 @@ function Services() {
                   <div>
                       <i className="uil uil-web-grid services__icon"></i>
                       <h3 className="services__title">Product <br/>Designer</h3>
-                      <span className="services__button">View More {""}
+                      <span className="services__button" onClick={()=>toggleTab(1)}>View More
                           <i className="uil uil-arrow-right services__button-icon"></i>
                       </span>
 
-                      <div className="services__modal">
+                      <div className={toggleState === 1 ? "services__modal active-modal": "services__modal" }>
                           <div className="services__modal-content">
                               <i className="uil uil-times services__modal-close">Product Designer</i>
                               <h3 className="services__modal-title"></h3>
