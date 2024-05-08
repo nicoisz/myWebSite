@@ -1,4 +1,5 @@
 import React from 'react'
+import './qualifications.css'
 
 const Qualifications = () => {
   return (
@@ -20,6 +21,88 @@ const Qualifications = () => {
         </div>
           
           <div className="qualification__sections">
+              <div className="qualification__content qualification__content-active">
+                  <div className="qualification__data">
+                     
+                      <div className=""></div>
+                      
+                      <div className="">
+                        <span className="qualification__rounder"></span>
+                        <span className="qualification__line"></span>
+                      </div>
+                      
+                      <div className="">
+                          <h3 className="qualification__title">
+                          </h3>
+                          <span className="qualification__subtitle">Chile - Universidad</span>
+                          <div className="qualification__calender">2021 - presente
+                          </div>
+                          <i className="uil uil-calendar-alt"></i>
+                      </div>
+
+                     
+                  </div>          
+                  <div className="qualification__data">
+                     
+                      <div className=""></div>
+                      
+                      <div className="">
+                        <span className="qualification__rounder"></span>
+                        <span className="qualification__line"></span>
+                      </div>
+                      
+                      <div className="">
+                          <h3 className="qualification__title">
+                          </h3>
+                          <span className="qualification__subtitle">Chile - Universidad</span>
+                          <div className="qualification__calender">2021 - presente
+                          </div>
+                          <i className="uil uil-calendar-alt"></i>
+                      </div>
+
+                     
+                  </div>
+                  <div className="qualification__data">
+                     
+                      <div className=""></div>
+                      
+                      <div className="">
+                        <span className="qualification__rounder"></span>
+                        <span className="qualification__line"></span>
+                      </div>
+                      
+                      <div className="">
+                          <h3 className="qualification__title">
+                          </h3>
+                          <span className="qualification__subtitle">Chile - Universidad</span>
+                          <div className="qualification__calender">2021 - presente
+                          </div>
+                          <i className="uil uil-calendar-alt"></i>
+                      </div>
+
+                     
+                  </div>
+                  <div className="qualification__data">
+                     
+                      <div className=""></div>
+                      
+                      <div className="">
+                        <span className="qualification__rounder"></span>
+                        <span className="qualification__line"></span>
+                      </div>
+                      
+                      <div className="">
+                          <h3 className="qualification__title">
+                          </h3>
+                          <span className="qualification__subtitle">Chile - Universidad</span>
+                          <div className="qualification__calender">2021 - presente
+                          </div>
+                          <i className="uil uil-calendar-alt"></i>
+                      </div>
+
+                     
+                  </div>
+              </div>
               <div className="qualification__content">
                   <div className="qualification__data">
                      
@@ -41,7 +124,6 @@ const Qualifications = () => {
 
                      
                   </div>
-                
                   <div className="qualification__data">
                      
                       <div className=""></div>
