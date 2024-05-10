@@ -1,6 +1,6 @@
-import React from 'react'
-import './contact.css'
-import { ReactComponent as Send } from "../../assets/send.svg"
+import React from 'react';
+import './contact.css';
+import { ReactComponent as Send } from "../../assets/send.svg";
 
 const Contact = () => {
   return (
@@ -38,9 +38,7 @@ const Contact = () => {
                       </div>
                   </div>
               </div>
-          </div>
-
-          <div className="contact__content">
+              <div className="contact__content">
               <h3 className="contact__title">Write me your projects</h3>
               <form action="" className="contact__form">
                   <div className="contact__form-div">
@@ -56,11 +54,14 @@ const Contact = () => {
                       <textarea name='project' id='' cols='30' rows='10' className='contact__form-input' placeholder='Tell me your project'/>
                   </div>
 
-                  <a href='#contact' className='button button--flex'>say hello &nbsp;<span>
+                  <button href='#contact' className='button button--flex'>send message &nbsp;<span>
           <Send/></span>
-        </a>
+        </button>
               </form>
           </div>
+          </div>
+
+         
       </section>
   )
 }
