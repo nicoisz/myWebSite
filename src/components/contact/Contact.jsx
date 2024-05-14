@@ -16,10 +16,13 @@ const Contact = () => {
       )
       .then(
         () => {
-          console.log('SUCCESS!');
+              console.log('SUCCESS!');
+              e.target.reset()
         },
         (error) => {
-          console.log('FAILED...', error.text);
+            console.log('FAILED...', error.text);
+            e.target.reset()
+
         },
       );
   };
