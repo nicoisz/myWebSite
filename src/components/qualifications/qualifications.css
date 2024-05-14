@@ -109,4 +109,8 @@
     .qualification__data{
         gap:0.5rem
     }
+
+    .qualification__sections{
+      margin-left: 10%;
+    }
 }

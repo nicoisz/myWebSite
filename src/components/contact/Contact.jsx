@@ -41,7 +41,7 @@ const Contact = () => {
                           <i className="bx bx-mail-send contact__card-icon"></i>
 
                           <h3 className="contact__card-title">Email</h3>
-                          <span className="contact__card-data">nicolasignacio.sz@gmail.com</span>
+                          {/* <span className="contact__card-data">nicolasignacio.sz@gmail.com</span>*/}
 
                           <a href="mailto:nicolasignacio.sz@gmail.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                       </div>
@@ -49,16 +49,16 @@ const Contact = () => {
                           <i className="bx bxl-whatsapp contact__card-icon"></i>
 
                           <h3 className="contact__card-title">WHatsapp</h3>
-                          <span className="contact__card-data">+17809959077</span>
-                          <a href="https://api.whatsapp.com/send/?phone=17809959077&text=Hey!+i+would+like+to+create+a+website&type=phone_number&app_absent=0" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                          {/*  <span className="contact__card-data">+17809959077</span>*/}
+                          <a href="https://api.whatsapp.com/send/?phone=17809959077&text=Hey!+i+would+like+to+create+a+website&type=phone_number&app_absent=0" className="contact__button">Text me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                       </div>
                       <div className="contact__card">
                           <i className="bx bxl-linkedin contact__card-icon"></i>
                           
                           <h3 className="contact__card-title">Linkedin</h3>
-                          <span className="contact__card-data">nicoisz</span>
+                         {/*  <span className="contact__card-data">nicoisz</span>*/}
 
-                          <a href="https://www.linkedin.com/in/nicoisz/" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                          <a href="https://www.linkedin.com/in/nicoisz/" className="contact__button">Contact me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                       </div>
                   </div>
               </div>
