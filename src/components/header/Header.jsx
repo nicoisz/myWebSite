@@ -52,6 +52,11 @@ const Header = () => {
                 <i className='uil uil-message nav__icon'></i> Contact
               </a>
             </li>
+            <li className='nav__item'>
+              <a href='login' className='nav__link' >
+                <i className='uil uil-user-circle nav__icon'></i> Login
+              </a>
+            </li>
           </ul>
 
           <i className='uil uil-times nav__close' onClick={()=>showMenu(!Toggle)}></i>

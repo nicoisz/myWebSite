@@ -1,30 +1,20 @@
 import './App.css';
-import About from './components/about/About';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
-import Header from './components/header/Header';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import Login from './components/login/Login';
 import Home from './components/home/Home';
-import Qualifications from './components/qualifications/Qualifications';
-import Scroll from './components/scroll/Scroll';
-import Services from './components/services/Services';
-import Skills from './components/skills/Skills';
 
 function App() {
   return (
-    <>
-      <Header />
-      <main className='main'>
-        <Home/>
-        <About />
-        <Skills />
-        <Services />
-        <Qualifications />
-        <Contact />
-       
-      </main>
-      <Footer />
-      <Scroll/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route index path='/' element={<Home></Home>}></Route>
+        <Route index path='/login' element={<Login></Login>}></Route>
+      
+  
+      
+        </Routes>
+    </BrowserRouter>
   );
 }
 
