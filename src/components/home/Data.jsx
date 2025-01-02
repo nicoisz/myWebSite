@@ -6,7 +6,7 @@ const Data = () => {
   return (
       <div className='home__data'>
       
-        <h1 className='home__title'>Nico Silva
+        <h1 className='home__title'>Nico Silva Zuniga
          <HomeHand/>
         </h1>
       

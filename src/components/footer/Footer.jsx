@@ -5,8 +5,7 @@ const Footer = () => {
   return (
       <div className="footer">
           <div className="footer__container container">
-              <h1 className="footer__title"> Nico
-              </h1>
+
 
               <ul className='footer__list'>
                   <li>

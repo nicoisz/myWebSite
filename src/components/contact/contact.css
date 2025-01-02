@@ -45,7 +45,7 @@
 }
 
 .contact__button{
-    color: var(--text-color);
+    color: white;
     font-size: var(--small-font-size);
     display: inline-flex;
     align-items: center;

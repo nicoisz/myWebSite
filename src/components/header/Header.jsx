@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./header.css"
+import "./Header.css"
 
 const Header = () => {
 
@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className="header">
       <nav className='nav container'>
-        <a href='index.html' className='nav__logo'>nico</a>
+        <a href='index.html' className='nav__logo'>Nico</a>
 
         <div className={Toggle?'nav__menu show-menu':'nav__menu'}>
           <ul className='nav__list grid'>
@@ -32,11 +32,11 @@ const Header = () => {
                 <i className='uil uil-user nav__icon'></i> About
               </a>
             </li>
-            <li className='nav__item'>
+            {/* <li className='nav__item'>
               <a href='#skills' className={activeNav==='#skills'? 'nav__link active-link': 'nav__link'} onClick={()=>setActiveNav("#skills")}>
                 <i className='uil uil-file-alt nav__icon'></i> Skills
               </a>
-            </li>
+            </li> */}
             <li className='nav__item'>
               <a href='#services' className={activeNav==='#services'? 'nav__link active-link': 'nav__link'} onClick={()=>setActiveNav("#services")}>
                 <i className='uil uil-briefcase-alt nav__icon'></i> Services

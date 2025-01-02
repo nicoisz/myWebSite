@@ -29,9 +29,9 @@ const Home = () => {
         </div>
       </section>
       <About />
-      <Skills />
+      {/* <Skills /> */}
       <Services />
-      <Qualifications />
+      {/* <Qualifications /> */}
       <Contact />
       <Footer />
         <Scroll />
