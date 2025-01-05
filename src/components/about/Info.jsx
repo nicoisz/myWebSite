@@ -29,10 +29,10 @@ const Info = () => {
               </h3>
               <span className="about__subtitle">{counter >= 20 ? 'Many' : counter } projects</span>
           </div>
-          <div className="about__box"><i className='bx bx-support about__icon'></i>
-              <h3 className="about__title">Support
+          <div className="about__box"><i className='bx bx-world about__icon'></i>
+              <h3 className="about__title">Languages
               </h3>
-              <span className="about__subtitle">24/7</span>
+              <span className="about__subtitle">English / Spanish / Portugues</span>
           </div>
       
     </div>
