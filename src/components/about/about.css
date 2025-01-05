@@ -22,7 +22,15 @@
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
 }
+
+
+.about__box:hover {
+    border-color: #0975f170;
+    box-shadow: 0 0 5px rgba(9, 117, 241, 0.4);
+}
+
 
 .about__icon{
     font-size: 1.5rem;
@@ -43,6 +51,7 @@
     padding: 0 4rem 0 0 ;
     margin-bottom: var(--mb-2-5);
 }
+
 
 @media screen and (max-width:992px){
 

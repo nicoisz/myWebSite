@@ -9,6 +9,9 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--container-color);
     padding: 6rem 0  2rem 2.5rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #bebebe,
+                  -5px -5px 5px #ffffff;
 }
 
 .services__icon{
@@ -57,9 +60,11 @@
     opacity: 0;
     visibility: hidden;
     transition: .3s;
+    padding: 5%;
 }
 
 .services__modal-content{
+    
     width: 700px;
     position: relative;
     background-color: var(--container-color);
@@ -161,11 +166,17 @@
     }
 }
 
+.modal__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: var(--mb-1);
+}
 .modal-container {   
     background: linear-gradient(white, white) padding-box,
                 linear-gradient(145deg, transparent 35%,#1c7eff, #2eff93) border-box;
     border: 5px solid transparent;
-    padding: 32px 24px;
+    padding: 40px 60px;
     font-size: 14px;
     font-family: inherit;
     color: var(--title-color);
@@ -176,12 +187,13 @@
     border-radius: 16px;
     background-size: 200% 100%;
     animation: gradient 5s ease infinite;
-  }
-  .modal-container-2 {   
+}
+
+.modal-container-2 {   
     background: linear-gradient(white, white) padding-box,
                 linear-gradient(145deg, transparent 35%,#bf1cff, #d5ff2e) border-box;
     border: 5px solid transparent;
-    padding: 32px 24px;
+    padding: 40px 60px;
     font-size: 14px;
     font-family: inherit;
     color: var(--title-color);
@@ -192,12 +204,13 @@
     border-radius: 16px;
     background-size: 200% 100%;
     animation: gradient 5s ease infinite;
-  }
-  .modal-container-3 {   
+}
+
+.modal-container-3 {   
     background: linear-gradient(white, white) padding-box,
                 linear-gradient(145deg, transparent 35%,#ff1c51, #2e46ff) border-box;
     border: 5px solid transparent;
-    padding: 32px 24px;
+    padding: 40px 60px;
     font-size: 14px;
     font-family: inherit;
     color: var(--title-color);
@@ -208,7 +221,7 @@
     border-radius: 16px;
     background-size: 200% 100%;
     animation: gradient 5s ease infinite;
-  }
+}
   
 @keyframes gradient {
     0% {

@@ -7,6 +7,14 @@ function Services() {
         setToggleState(index);
     }
 
+    if(toggleState === 1 || toggleState === 2 || toggleState === 3){
+        window.addEventListener('click', function(e){
+            if(e.target === document.querySelector('.active-modal')){
+                document.querySelector('.active-modal').classList.remove('active-modal');
+            }
+        });
+    }
+    
   return (
       <section className="services section" id="services">
           <h2 className="section__title">Services</h2>
@@ -46,6 +54,9 @@ function Services() {
                                   <p className="services__modal-info">Integration & Scalability: I integrate your website with tools like CMS (WordPress), e-commerce platforms, or third-party APIs, ensuring scalability as your business grows.</p>
                               </li>
                               </ul>
+                              <div className='modal__footer'>
+                                <button onClick={()=>toggleTab(0)} className='button button__flex'>I’m Ready to Roll</button>
+                              </div>
                           </div>
                       </div>
                   </div>
@@ -84,6 +95,9 @@ function Services() {
                                   <p className="services__modal-info">Deployment & Support: I handle app store submissions for Google Play and the Apple App Store, and offer ongoing maintenance to keep your app running smoothly.</p>
                               </li>
                               </ul>
+                              <div className='modal__footer'>
+                                <button onClick={()=>toggleTab(0)} className='button button__flex'>Let’s Move Forward</button>
+                              </div>
                           </div>
                       </div>
                   </div>
@@ -114,6 +128,9 @@ function Services() {
                                       <p className="services__modal-info">Performance Enhancements: I optimize your platform for faster loading times, responsive layouts, and seamless interactions to keep users engaged.</p>
                                   </li>
                               </ul>
+                              <div className='modal__footer'>
+                                <button onClick={()=>toggleTab(0)} className='button button__flex'>I’m In!</button>
+                              </div>
                           </div>
                       </div>
                   </div>

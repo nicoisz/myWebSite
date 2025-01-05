@@ -29,6 +29,9 @@
     border-radius: 0.75rem;
     text-align: center;
     transition: 600ms;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #bebebe,
+                  -5px -5px 5px #ffffff;
 }
 
 
