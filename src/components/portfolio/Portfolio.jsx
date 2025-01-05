@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./Portfolio.css"
+import Loading from '../loading/Loading'
 
 const Portfolio = () => {      
     return(
-        <div className='loading'>   </div>
+        <Loading/>
     )
 }
 
