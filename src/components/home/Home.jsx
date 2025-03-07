@@ -45,7 +45,7 @@ async function detectLanguage() {
 
 function getRandomInt(min, max) {
   let random = Math.floor(Math.random() * (max - min + 1)) + min;
-  if (random !== NaN) {
+  if (!isNaN(random)) {
     return random
 
   }
