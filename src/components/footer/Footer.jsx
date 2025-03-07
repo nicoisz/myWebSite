@@ -19,8 +19,8 @@ const Footer = () => {
                   </li>
               </ul>
               <div className='footer__social'>
-                  <a href="https://www.linkedin.com/in/nicoisz/" target='_blank' className="footer__social-link"><i className="bx bxl-linkedin"></i></a>
-                    <a href="https://github.com/nicoisz" target='_blank' className="footer__social-link"><i className="bx bxl-github"></i></a>
+                  <a href="https://www.linkedin.com/in/nicoisz/" className="footer__social-link"><i className="bx bxl-linkedin"></i></a>
+                    <a href="https://github.com/nicoisz" className="footer__social-link"><i className="bx bxl-github"></i></a>
                 <span className='footer__copy'></span>
               </div>
           </div>

@@ -1,18 +1,8 @@
 import React, { useState,useEffect } from 'react'
 import './home.css'
-import Social from './Social'
-import Data from './Data'
 import NoSpace from './noSpace/NoSpace'
-import ScrollDown from './ScrollDown'
-import About from '../../components/about/About';
-import Contact from '../../components/contact/Contact';
-import Footer from '../../components/footer/Footer';
-import Header from '../../components/header/Header';
-import Qualifications from '../../components/qualifications/Qualifications';
-import Scroll from '../../components/scroll/Scroll';
-import Services from '../../components/services/Services';
-import Skills from '../../components/skills/Skills';
 import ShineText from '../../components/shinyText/shine';
+import Social from './Social';
 
 export const textContent = [
   {title: 'cooking', lang: 'en'},
@@ -81,7 +71,7 @@ const Home = () => {
     }, 2000);
 
     return () => clearInterval(intervalId); 
-  }, [textContent]); 
+  }, []); 
 
   
 
@@ -94,6 +84,7 @@ const Home = () => {
       <div className='squeezed'>
         <NoSpace/>
       </div>
+      <Social/>
     </div>
   )
 }

@@ -11,7 +11,7 @@ const Scroll = () => {
     })
 
   return (
-      <a href="" className="scrollUp">
+      <a className="scrollUp">
         <i className="uil uil-arrow-up scrollup__icon"></i>
       </a>
       
