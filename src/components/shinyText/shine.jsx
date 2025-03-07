@@ -4,7 +4,7 @@ import './shine.css';
 const ShineText = ({ text }) => {
     console.log('ShineText', text);
     return (
-        <a className="btn-shine">{text}</a>
+        <button className="btn-shine">{text}</button>
 
     );
 };

@@ -15,7 +15,7 @@ const Login = () => {
                     <label for="password">Password</label>
                     <input type="password" name="password" id="password" placeholder=""/>
                     <div className="forgot">
-                        <a rel="noopener noreferrer">Forgot Password ?</a>
+                        <button rel="noopener noreferrer">Forgot Password ?</button>
                     </div>
                 </div>
                 <button className="sign">Sign in</button>

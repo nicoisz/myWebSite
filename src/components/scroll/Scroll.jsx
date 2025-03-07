@@ -11,9 +11,9 @@ const Scroll = () => {
     })
 
   return (
-      <a className="scrollUp">
+      <button className="scrollUp">
         <i className="uil uil-arrow-up scrollup__icon"></i>
-      </a>
+      </button>
       
   )
 }
