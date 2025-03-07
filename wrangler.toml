@@ -7,4 +7,4 @@ command = "npm run build"  # or your build command
 cwd = "."  # Current working directory
 
 [env.production]
-pages_build_output_dir = "./dist"  # Point to your build output folder
+pages_build_output_dir = "./build"  # Point to your build output folder
