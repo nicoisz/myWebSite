@@ -1,0 +1,3 @@
+name= "react-portfolio-website"
+compatibility_date = "2025-03-06"
+assets = { directory = "build" }
