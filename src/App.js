@@ -1,20 +1,26 @@
-import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
-import Login from './components/login/Login';
-import Home from './components/home/Home';
-import Portfolio from './components/portfolio/Portfolio';
+import './App.css'
+import Scene from './components/scene/Scene'
+import Navigation from './components/ui/Navigation'
+import HeroSection from './components/sections/HeroSection'
+import AboutSection from './components/sections/AboutSection'
+import TechSection from './components/sections/TechSection'
+import ProjectsSection from './components/sections/ProjectsSection'
+import ContactSection from './components/sections/ContactSection'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route index path='/' element={<Home></Home>}></Route>
-        <Route index path='/login' element={<Login></Login>}></Route>        
-        <Route index path='/portfolio' element={<Portfolio></Portfolio>}></Route>     
-      </Routes>
-    </BrowserRouter>
-  );
+    <div className="app">
+      <Navigation />
+      <Scene />
+      <main className="scroll-container" id="scroll-container">
+        <HeroSection />
+        <AboutSection />
+        <TechSection />
+        <ProjectsSection />
+        <ContactSection />
+      </main>
+    </div>
+  )
 }
 
-export default App;
+export default App
