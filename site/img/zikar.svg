@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" ry="112" fill="#0B1A26"/>
+  <svg x="62" y="62" width="389" height="389" viewBox="43 26 71 50" preserveAspectRatio="xMidYMid meet">
+<!-- SVG created with Arrow, by QuiverAI (https://quiver.ai) -->
+  <style type="text/css">.cls-0 {fill:#0B1A26;}
+.cls-1 {fill:url(#SVGID_1_);}
+.cls-2 {fill:url(#SVGID_2_);}</style>
+  <linearGradient id="SVGID_1_" x1="56.61" x2="90.14" y1="29.89" y2="59.15" gradientTransform="matrix(1 0 0 -1 0 103)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FAFBFD" offset="0"/>
+    <stop stop-color="#DADCE0" offset=".5154"/>
+    <stop stop-color="#F3F4F7" offset=".9825"/>
+  </linearGradient>
+  <path class="cls-1" d="m93 74h1.8l16.2-21.9h-10.1l-9.9 12.9h-25.4l14.8-20.7h-10.3c-0.4 0.6-22 29.7-22 29.7h44.9z"/>
+  <linearGradient id="SVGID_2_" x1="78.88" x2="94.84" y1="44.5" y2="75.69" gradientTransform="matrix(1 0 0 -1 0 103)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0F9DD8" offset="0"/>
+    <stop stop-color="#13CFF1" offset="1"/>
+  </linearGradient>
+  <path class="cls-2" d="m62 28-16.4 22.4h10.4l9.3-12.7 0.3-0.1h25.2l-14.9 20.7h10.3l22-30.3z"/>
+</svg>
+</svg>
