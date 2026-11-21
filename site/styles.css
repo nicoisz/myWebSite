@@ -214,9 +214,43 @@ strong { font-weight: 600; }
 
 /* Experiencia */
 
-.job { margin-bottom: 44px; }
+.job { position: relative; margin-bottom: 44px; }
+
+h3 a { color: inherit; }
+
+/* Logo de la empresa: aparece desde la derecha al pasar el mouse por el cargo.
+   Va fuera de la columna, así que solo existe en pantallas anchas con mouse. */
+.co-logo { display: none; }
+
+@media (hover: hover) and (min-width: 1100px) {
+  .co-logo {
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: calc(100% + 48px);
+    width: auto;
+    max-width: 120px;
+    height: auto;
+    max-height: 40px;
+    filter: brightness(0) invert(1);
+    opacity: 0;
+    transform: translateX(14px);
+    transition: opacity .45s ease, transform .45s ease;
+    pointer-events: none;
+  }
+  .job:hover .co-logo,
+  .earlier li:hover .co-logo { opacity: .7; transform: none; }
+  /* En la lista de experiencia anterior cada fila es de una línea: centrar el logo. */
+  .earlier .co-logo { top: 50%; transform: translate(14px, -50%); }
+  .earlier li:hover .co-logo { transform: translateY(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .co-logo { transform: none !important; }
+}
 
 .earlier summary { cursor: pointer; color: var(--sepia); }
+.earlier li { position: relative; }
 .earlier li time { margin-left: 8px; }
 
 /* Stack */
@@ -229,6 +263,33 @@ strong { font-weight: 600; }
 }
 .skills dt { color: var(--sepia); font-size: 14px; }
 .skills dd { margin: 4px 0 0; }
+
+/* Logos del stack flotando a los costados (ver tech-float.js) */
+main, footer { position: relative; z-index: 1; }
+
+.tech-float {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+.tech-float span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: var(--text);
+  -webkit-mask: var(--icon) center / contain no-repeat;
+  mask: var(--icon) center / contain no-repeat;
+  opacity: 0;
+  transition-property: transform, opacity;
+  transition-timing-function: ease-in-out, ease;
+  will-change: transform;
+}
+.tech-float span.sepia { background: var(--sepia); }
+.tech-float span.in { opacity: var(--o); }
+
+@media (max-width: 980px) { .tech-float { display: none; } }
 
 /* Proyectos */
 
